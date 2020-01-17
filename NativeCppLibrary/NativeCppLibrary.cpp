@@ -6,17 +6,26 @@
 #include "NativeCppLibrary.h"
 
 
-// This is an example of an exported variable
-NATIVECPPLIBRARY_API int nNativeCppLibrary=0;
+// Standard Library imports
+#include <iostream>
 
-// This is an example of an exported function.
-NATIVECPPLIBRARY_API int fnNativeCppLibrary(void)
+
+int displayNumber()
 {
-    return 0;
+    return 1;
 }
 
-// This is the constructor of a class that has been exported.
-CNativeCppLibrary::CNativeCppLibrary()
+int getRandom()
 {
-    return;
+    return rand();
 }
+
+
+
+int displaySum() {
+    int first_number = 7;
+    int second_number = 7;
+
+    int total = first_number + second_number;
+
+    return total;
