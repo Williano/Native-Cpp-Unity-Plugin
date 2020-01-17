@@ -10,13 +10,19 @@
 #define NATIVECPPLIBRARY_API __declspec(dllimport)
 #endif
 
-// This class is exported from the dll
-class NATIVECPPLIBRARY_API CNativeCppLibrary {
-public:
-	CNativeCppLibrary(void);
-	// TODO: add your methods here.
-};
+/* Fucntion declarations */
 
-extern NATIVECPPLIBRARY_API int nNativeCppLibrary;
 
-NATIVECPPLIBRARY_API int fnNativeCppLibrary(void);
+// Single line function declarations
+extern "C" NATIVECPPLIBRARY_API int displayNumber();
+
+extern "C" NATIVECPPLIBRARY_API int getRandom();
+
+
+
+// Block declarations
+extern "C" {
+	NATIVECPPLIBRARY_API int displayNumber();
+	NATIVECPPLIBRARY_API int getRandom();;
+	NATIVECPPLIBRARY_API int displaySum();
+}
