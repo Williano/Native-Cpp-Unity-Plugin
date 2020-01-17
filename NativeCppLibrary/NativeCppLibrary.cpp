@@ -29,3 +29,4 @@ int displaySum() {
     int total = first_number + second_number;
 
     return total;
+}

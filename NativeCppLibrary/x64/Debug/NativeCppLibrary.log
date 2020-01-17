@@ -1,0 +1,6 @@
+﻿  pch.cpp
+  dllmain.cpp
+  NativeCppLibrary.cpp
+  Generating Code...
+     Creating library C:\Users\paawi\Documents\Projects\Personal\Plugins\NativeCppUnityPlugin\NativeCppLibrary\x64\Debug\NATIVECPPLIBRARY.lib and object C:\Users\paawi\Documents\Projects\Personal\Plugins\NativeCppUnityPlugin\NativeCppLibrary\x64\Debug\NATIVECPPLIBRARY.exp
+  NativeCppLibrary.vcxproj -> C:\Users\paawi\Documents\Projects\Personal\Plugins\NativeCppUnityPlugin\NativeCppLibrary\x64\Debug\NATIVECPPLIBRARY.dll
